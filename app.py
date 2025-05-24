@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 # Replace with your actual API key and email credentials
 genai.configure(api_key="your_gemini_api_key")
-EMAIL_ADDRESS = "arun120904@gmail.com"
+EMAIL_ADDRESS = "your_email_id"
 EMAIL_PASSWORD = "your_gmail_app_password"  # Use an App Password for Gmail
 
 # Generate email content
